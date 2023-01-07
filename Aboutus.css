@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding:0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+.logo{
+    margin-left: 58px;
+    margin-top: -34px; 
+    width: 180px;
+    cursor: pointer;
+}
+
+
+            
+.circle {
+    margin-top: 18px; 
+}
+
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.circle1{
+    right: 40px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    
+    animation-direction:reverse;
+}
+.circle2{
+    right: 70px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+   
+    animation-direction:reverse;
+}
+.circle3{
+    right: 100px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    animation-direction:reverse;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0%;
+    }
+  
+    50% {
+      opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+      }
+  }
+
+
+
+
+.main img{
+    width: 700px;
+    margin-left: 280px;
+    margin-top : 70px;
+}
+
+.main .gri{
+    margin-top: 40px;
+}
+
+.main h3{
+    color: white;
+    font-family: 'Roboto mono';
+    font-weight: 600;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+.main span{
+    font-family: 'Roboto mono';
+    font-style: italic;
+}
+
+.main h2{
+    color: white;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+main{
+    position: relative;
+    margin-top: -60px;
+}
+.qa {
+    position: relative;
+    width: 100%;
+}
+.emojis{
+    position: absolute;
+}
+
+.emojis video {
+    position: absolute;
+    top: -140px;
+    left: 850px;
+}
+
+.qa h1{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.qa h2{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+.qa p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+.qa .why{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.emojis img{
+    display: inline-block;
+    width: 320px;
+    z-index: 999;
+}
+
+.emojis .em1{
+    margin-top: 39px;
+    
+}
+.intro{
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 900px;
+    font-weight: 600;
+}
+
+.arrow{
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.sec{
+    margin-top: 100px;
+}
+
+section h1{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.identity p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+.cardz{
+    position: relative;
+    display: flex;
+}
+
+.cardz .cardf{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 30px;
+    cursor: pointer;
+    flex-wrap:nowrap ;
+    flex-direction: column;
+    transition: ease-in-out 0.4s;
+}
+
+.cardz .cards{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+    flex-wrap:nowrap ;
+    flex-direction: column;
+    transition: ease-in-out 0.4s;
+}
+
+.cardz .cardt{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+    flex-wrap:nowrap ;
+    flex-direction: column;
+    transition: ease-in-out 0.4s;
+}
+
+/* .cardf:hover{
+    background: rgb(34,127,195);
+    background: linear-gradient(31deg, rgba(34,127,195,0.42107265269389005) 0%, rgba(0,0,0,1) 63%);
+}
+
+.cards:hover{
+    background: rgb(195,149,34);
+    background: linear-gradient(31deg, rgba(195,149,34,0.42107265269389005) 0%, rgba(0,0,0,1) 63%);
+}
+
+.cardt:hover{
+    background: rgb(195,60,34);
+    background: linear-gradient(31deg, rgba(195,60,34,0.42107265269389005) 0%, rgba(0,0,0,1) 63%);
+} */
+.cardz img{
+    background: none;
+    width: 140px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.cardz .rom{
+    background: none;
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 29px;
+}
+
+.cardz .lar{
+    background: none;
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 29px;
+}
+.staff{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.staff .cards{
+    position: relative;
+    width: 300px;
+    height: 390px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 80px;
+    padding: 40px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.staff .cards:hover{
+    transform: scale(1.1);
+}
+
+.cards img {
+    background:none;
+    width: 200px;
+    align-items: center;
+    
+}
+.cards h3 {
+    background:none;
+    margin-bottom: 8px;
+}
+
+.cards p {
+    background:none;
+    margin-bottom: 8px;
+    font-family: 'Roboto mono';
+}
+
+.cards a{
+    background: none;
+    margin-bottom: 8px;
+    font-family: 'Roboto mono';
+}
+
+.infoss{
+    padding-top: 25px;
+}
+
+.infoss h3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoss p{
+    padding-left: 40px;
+}
+
+.infoss a{
+    padding-left: 18px;
+}
+
+.hamada p{
+    padding-left: 50px;
+}
+
+.anass p{
+    padding-left: 70px;
+}
+.cards img{
+    padding-left: 18px;
+    /* padding-top: -12px; */
+}
+
+.contact {
+    font-weight: 700;
+    margin-left: 90px;
+    font-size: 55px;
+}
+
+footer{
+    color: white;
+    margin : 75px; 
+    margin-top : 140px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social a{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.social a:hover{
+    color: rgb(173, 173, 179);
+}
+

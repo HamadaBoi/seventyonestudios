@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+    *{
+        font-family: 'Poppins';
+        margin: 0;
+        padding:0;
+        background-color: black;
+        box-sizing: border-box;
+        scroll-behavior: smooth; 
+        text-decoration: none;
+    }
+
+.logo{
+    margin-left: 58px;
+    margin-top: -34px; 
+    width: 180px;
+    cursor: pointer;
+}
+            
+.circle {
+    margin-top: 18px; 
+}
+
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.circle1{
+    right: 40px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    
+    animation-direction:reverse;
+}
+.circle2{
+    right: 70px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+   
+    animation-direction:reverse;
+}
+.circle3{
+    right: 100px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    animation-direction:reverse;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0%;
+    }
+  
+    50% {
+      opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+      }
+  }
+
+.text {
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 120px;
+  }
+  
+
+
+.work img{
+    width: 350px;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    filter: brightness(40%);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.BBD .banner{
+    width: 900px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.BBD .ott img{
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+.work img:hover{
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
+
+
+
+.title{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom : 10px;
+}
+
+
+.emoji{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+
+.cnt {
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.163);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.398);
+}
+
+.cnt img {
+    width: 200px;
+    filter: brightness(100%);
+    transition: none;
+}
+
+.cnt img:hover{
+      transform: none;
+      filter: brightness(100%);
+}
+
+.BBD .brd{
+    width: 700px;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    margin : 75px; 
+    margin-top : 90px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.social a{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.social a:hover{
+    color: rgb(173, 173, 179);
+}

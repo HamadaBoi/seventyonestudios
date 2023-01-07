@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body{
+    background: url(images/cll.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a:hover{
+    color: rgb(173, 173, 179);
+}
+
+.logo{
+    margin-left: 65px;
+    margin-top: 30px; 
+    width: 60px;
+    cursor: pointer;
+}
+
+.nav a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+
+
+
+.hometext{
+    text-align: center;
+    margin-top : 200px;
+    line-height: 50px;
+    color: white;
+    
+}
+
+.hometext h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hometext h4{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+footer{
+    color: white;
+    margin : 75px; 
+    margin-top : 270px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.social a{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.social a:hover{
+    color: rgb(173, 173, 179);
+}
+

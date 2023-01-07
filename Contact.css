@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding:0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+.logo{
+    margin-left: 58px;
+    margin-top: -34px; 
+    width: 180px;
+    cursor: pointer;
+}
+
+            
+.circle {
+    margin-top: 18px; 
+}
+
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.circle1{
+    right: 40px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    
+    animation-direction:reverse;
+}
+.circle2{
+    right: 70px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+   
+    animation-direction:reverse;
+}
+.circle3{
+    right: 100px;
+    top : 40px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    animation-direction:reverse;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0%;
+    }
+  
+    50% {
+      opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+      }
+  }
+
+
+
+.main h1{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+.links{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.links .cards{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 80px;
+    padding: 40px;
+    cursor: pointer;
+    margin-bottom: 140px;
+}
+
+
+.links .instagram p {
+    padding-left: 17px;
+}
+
+.links .facebook p {
+    padding-left: 23px;
+}
+
+.links .whatsapp p {
+    padding-left: 17px;
+}
+
+
+.links p{
+    padding-left: 20px;
+}
+
+.links a{
+    font-size: 50px;
+    padding-left: 35px;
+}
+
+.links .mail{
+    width: 300px;
+    height: 200px;
+}
+
+
+.links .maill{
+    padding-left: 37px;
+}
+
+.mail a{
+    padding-left: 80px;
+}
+
+.mail .maill{
+    padding-left: 83px;
+}
+
+.email{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+footer{
+    color: white;
+    margin : 75px; 
+    margin-top : 140px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.md a{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.md a:hover{
+    color: rgb(173, 173, 179);
+}
+
